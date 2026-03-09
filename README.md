@@ -1,4 +1,4 @@
-# B-Spline Geometric Modelling Framework 🧮
+# B-Spline Geometric Modelling Framework 
 
 [![University Project](https://img.shields.io/badge/Project-Cranfield_University-blue.svg)](https://www.cranfield.ac.uk/)
 [![C++](https://img.shields.io/badge/Language-C++-00599C.svg)](https://isocpp.org/)
@@ -48,7 +48,8 @@ Quantitative evaluation components ensure that generated geometries accurately m
 The implementation employs modular object-oriented C++ classes supporting vector math and algorithmic abstractions. Below is the UML class diagram for the tensor-product B-spline surface construction framework:
 
 <div align="center">
-  <img src="../../UMLPartB.png" alt="UML Class Diagram for Part B" width="600">
+<img width="1166" height="1301" alt="UMLPartB" src="https://github.com/user-attachments/assets/5edecde2-e92b-4f66-9ef2-91bd3f35289d" />
+
 </div>
 
 *   **`BsplineCurve` / `BsplineSurf`**: Defines the foundational cubic and bi-cubic geometry evaluations. Inherits from abstract topologies (`AbsCurve`, `AbsSurface`).
@@ -78,3 +79,14 @@ Enter the order in v: 4
 The least squares error is: 0.1423
 ```
 After executing, the framework outputs serialised generated surfaces via IGES format interfaces or flattened parameterized points to `.dat` models ready for CAD visualisation (e.g., Onshape, SolidWorks).
+
+## Visualisation 
+
+An exemple from the current dataset once throw into a CAD software:
+
+<img width="1610" height="712" alt="2_10BSplineSurfSegmentation" src="https://github.com/user-attachments/assets/28379be2-f083-46a2-acaa-5b306aab7259" />
+<img width="1612" height="712" alt="2_10BSplineSurfControlPoint" src="https://github.com/user-attachments/assets/c99fb3cc-767d-476e-854e-b37de850ba27" />
+<img width="1608" height="715" alt="2_10BSplineSurf" src="https://github.com/user-attachments/assets/884c4fa0-0eed-418a-a937-66e7d13c18e8" />
+
+> 🦆 *No B-splines were harmed in the making of this project.*
+
